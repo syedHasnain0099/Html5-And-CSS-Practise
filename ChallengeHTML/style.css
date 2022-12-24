@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.article {
+  border: 5px solid black;
+}
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: grey;
+}
+.price {
+  font-size: 30px;
+}
+.product-details {
+  text-transform: uppercase;
+}
+.shipping {
+  font-size: 10px;
+}
+.description {
+  font-size: 20px;
+  color: black;
+}
+.button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:link:hover {
+  text-decoration: none;
+}
