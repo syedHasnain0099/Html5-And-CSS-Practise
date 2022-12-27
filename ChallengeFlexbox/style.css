@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.container {
+  width: 825px;
+  margin: 50px auto;
+}
+.article {
+  border: 5px solid black;
+  position: relative;
+}
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: grey;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.price {
+  font-size: 30px;
+}
+.product-details {
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.shipping {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+.description {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+ul {
+  margin-left: 20px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+.link-1 {
+  margin-bottom: 10px;
+}
+.button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px;
+  width: 100%;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
+a:link {
+  color: black;
+  font-weight: bold;
+}
+a:link:hover {
+  text-decoration: none;
+}
+.article h1::after {
+  content: 'SALE';
+  color: white;
+  background-color: red;
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  top: -20px;
+  left: -40px;
+  display: inline-block;
+  width: 60px;
+  padding: 7px 15px;
+  letter-spacing: 2px;
+}
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: flex;
+}
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
+}
+.colors {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.row-2-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shipping {
+  margin-bottom: 0;
+}
+.description {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.row-2 {
+  flex: 1;
+}
+.row-3 {
+  flex: 1;
+}
